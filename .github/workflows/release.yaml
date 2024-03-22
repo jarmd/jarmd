@@ -45,6 +45,8 @@ jobs:
 
       - name: Fetch version from git history
         uses: docker://ghcr.io/codfish/semantic-release-action:v3
+        with:
+          additional-packages: 'conventional-changelog-conventionalcommits@7'
         id: semantic
         with:
           dry-run: true
