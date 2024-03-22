@@ -1,0 +1,10 @@
+global:
+  postgresql-ha:
+    password: "$POSTGRESQL_POSTGRES_PASSWORD"
+    adminPassword: "$POSTGRES_PGPOOL_ADMIN_PASSWORD"
+    repmgrPassword: "$POSTGRESQL_REPMGR_PASSWORD"
+    databases:
+    - dbname: "grafana"
+      app: "grafana"
+      username: "$GRAFANA_PSQL_USERNAME"
+      password: "$GRAFANA_PSQL_PASSWORD"
