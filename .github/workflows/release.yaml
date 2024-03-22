@@ -38,14 +38,20 @@ jobs:
     outputs:
       version: ${{ steps.semantic.outputs.release-version }}
       released: ${{ steps.semantic.outputs.new-release-published }}
+
     steps:
       - name: Clone repository
         uses: actions/checkout@v4
-        
-      - name: Download all packaged charts
-        uses: actions/download-artifact@v4
 
-      - name: Create release
+      - name: Fetch version from git history
+        uses: docker://ghcr.io/codfish/semantic-release-action:v3
+        id: semantic
+        with:
+          dry-run: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create new semantic release
         uses: docker://ghcr.io/codfish/semantic-release-action:v3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
