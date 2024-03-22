@@ -1,0 +1,23 @@
+name: Release
+
+on:
+  pull_request:
+    branches:
+      - "main"
+      - "alpha"
+      - "beta"
+    types:
+      - opened
+      - edited
+      - synchronize
+      - reopened
+  push:
+    branches:
+      - "main"
+      - "alpha"
+      - "beta"
+      - "feature/**"
+      - "bug/**"
+      - "docs/**"
+      - "fix/**"
+  workflow_dispatch:
