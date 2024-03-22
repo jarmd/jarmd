@@ -54,7 +54,7 @@ jobs:
       - name: Create new semantic release
         uses: docker://ghcr.io/codfish/semantic-release-action:v3
         with:
-          additional-packages: ['conventional-changelog-conventionalcommits@7']
+          additional-packages: 'conventional-changelog-conventionalcommits@7'
           plugins: |
             [
               '@semantic-release/commit-analyzer',
