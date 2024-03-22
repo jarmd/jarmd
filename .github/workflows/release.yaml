@@ -50,6 +50,7 @@ jobs:
           dry-run: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+<<<<<<< HEAD
 
       - name: Create new semantic release
         uses: docker://ghcr.io/codfish/semantic-release-action:v3
@@ -84,3 +85,5 @@ jobs:
             ]
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+=======
+>>>>>>> ccb2b9f (chore(config): adds automation)
