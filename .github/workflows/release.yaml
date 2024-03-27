@@ -66,7 +66,7 @@ jobs:
                   "presetConfig": {
                     "types": [
                       { type: 'feat', section: 'Features', hidden: false },
-                      { type: 'fix', section: 'Bug Fixes', hidden: false },
+                      { type: 'fix', section: 'Hotfix and Patches', hidden: false },
                       { type: 'perf', section: 'Performance Improvements', hidden: false },
                       { type: 'revert', section: 'Reverts', hidden: false },
                       { type: 'docs', section: 'Documentation', hidden: false },

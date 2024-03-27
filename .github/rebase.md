@@ -12,6 +12,6 @@ This require that we are able to do a --force on the branch
 2. git rebase main
 3. git add .
 4. git rebase --continue
-5. git push --origin HEAD --force
+5. git push --origin HEAD --force-with-lease
 
 __Note:__ Run step 3 and 4 until rebasing is done
