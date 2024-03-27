@@ -21,6 +21,7 @@ on:
       - "bug/**"
       - "docs/**"
       - "fix/**"
+      - "cicd/**"
   workflow_dispatch:
 
 permissions:
@@ -43,6 +44,8 @@ jobs:
     steps:
       - name: Clone repository
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
 
       - name: Fetch version from git history
         uses: docker://ghcr.io/codfish/semantic-release-action:v3
