@@ -13,5 +13,7 @@ Adds morning 5 doc after 1 rebase with 1 commit !
 Doing merge check doc update 6
 
 doc 7 test with nicklas (rebase and the merge still have commits)
-doc 8 test with nick:
+doc 8 test with nick: Merge commit rebase not working from github
+doc 9. test from cli only
+
 
