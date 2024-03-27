@@ -10,3 +10,4 @@ Doing morning doc-3 with rebase from github PR request
 
 And morning doc-4 :o
 Adds morning 5 doc after 1 rebase with 1 commit !
+Doing merge check doc update 6
