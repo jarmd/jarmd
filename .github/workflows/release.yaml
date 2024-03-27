@@ -17,6 +17,7 @@ on:
       - "alpha"
       - "beta"
       - "feature/**"
+      - "feat/**"
       - "bug/**"
       - "docs/**"
       - "fix/**"
