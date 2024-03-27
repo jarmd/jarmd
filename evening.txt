@@ -12,4 +12,6 @@ And morning doc-4 :o
 Adds morning 5 doc after 1 rebase with 1 commit !
 Doing merge check doc update 6
 
-doc 7 test with nicklas
+doc 7 test with nicklas (rebase and the merge still have commits)
+doc 8 test with nick:
+
