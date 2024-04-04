@@ -7,3 +7,18 @@ metadata:
   namespace: default
   labels:
     app: new-feature-1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: new-feature-1
+  template:
+    metadata:
+      labels:
+        app: new-feature-1
+    spec:
+      containers:
+      - name: new-feature-1
+        image: nginx:1.7.9
+        ports:
+        - containerPort: 80
