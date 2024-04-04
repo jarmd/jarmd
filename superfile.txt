@@ -30,3 +30,14 @@ First major release did not make a major but just patch due to fix now trying wi
 5th was success used the BREAKING CHANGE: from extra comment
 
 6th test with BREAKING CHANGE: in the top description
+
+6th failed
+
+testing with 7th:
+    git commit -m "feat: Add new feature
+ 
+    This commit adds a new feature that enhances the functionality of the application.
+    
+    Footer:
+    BREAKING CHANGE: The format of the configuration file has changed. Users need to update their configuration accordingly."
+
