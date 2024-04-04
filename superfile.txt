@@ -14,3 +14,5 @@ This is new code 2nd of april
 We are adding more code 2nd of april - 2
 
 After strange rebase we are adding a more code - Thursday-1
+
+This is to make a breaking change releasing a new major version
