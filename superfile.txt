@@ -26,3 +26,7 @@ First major release did not make a major but just patch due to fix now trying wi
 4th did upgrade, but unknown where the comment should be !!
 
 5th test now done:
+
+5th was success used the BREAKING CHANGE: from extra comment
+
+6th test with BREAKING CHANGE: in the top description
