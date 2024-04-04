@@ -22,3 +22,7 @@ First major release did not make a major but just patch due to fix now trying wi
 3rd major test
 
 4th major release - howto do this !!
+
+4th did upgrade, but unknown where the comment should be !!
+
+5th test now done:
