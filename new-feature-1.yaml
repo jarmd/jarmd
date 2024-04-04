@@ -1,0 +1,9 @@
+#This yaml file will do nothing
+
+version: 1
+kind: Feature
+metadata:
+  name: new-feature-1
+  namespace: default
+  labels:
+    app: new-feature-1
