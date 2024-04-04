@@ -84,7 +84,12 @@ jobs:
                   }
                 }
               ],
-              '@semantic-release/github'
+              [
+                "@semantic-release/github", 
+                { 
+                  assets: [{ path: "release/**" }] 
+                }
+              ]
             ]
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
