@@ -20,3 +20,5 @@ This is to make a breaking change releasing a new major version
 First major release did not make a major but just patch due to fix now trying with feat
 
 3rd major test
+
+4th major release - howto do this !!
