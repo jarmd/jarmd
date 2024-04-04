@@ -12,3 +12,5 @@ My 2 commit of 2 this is a fix
 This is new code 2nd of april
 
 We are adding more code 2nd of april - 2
+
+After strange rebase we are adding a more code - Thursday-1
